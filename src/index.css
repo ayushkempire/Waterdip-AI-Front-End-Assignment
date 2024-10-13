@@ -17,6 +17,11 @@ body {
   line-height: 1.4em;
 }
 
+label
+{
+  color: aqua;
+}
+
 .container{
 	display: flex;
     flex-direction: column;
@@ -44,9 +49,12 @@ h1{
   text-align: center;
   color: white;
   text-transform: uppercase;
-  font-size: 28px;
+  font-size: 35px;
   letter-spacing: 2px;
   margin-top: 0;
+  font-weight: 700;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(255, 183, 0);
 }
 
 input{
@@ -60,7 +68,7 @@ input{
   background-color: #01040980;
   border: 1px solid #fff3;
   border-radius: 8px;
-  min-width: 90%;
+  min-width: 70vw;
   padding: 20px;
   margin: 20px;
 }

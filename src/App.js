@@ -46,7 +46,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <h1>Hotel Booking Dashboard</h1>
+      <h1>Check the Hotel Bookings here !</h1>
       <div className="dateFilter">
         <div>
           <label>Start From: </label>
@@ -57,7 +57,7 @@ const App = () => {
             startDate={startDate}
             endDate={endDate}
             minDate={new Date('2015-06-30')}
-            maxDate={new Date('2015-08-08')}
+            maxDate={new Date('2015-08-09')}
           />
         </div>
         <div>
@@ -69,7 +69,7 @@ const App = () => {
             startDate={startDate}
             endDate={endDate}
             minDate={startDate} 
-            maxDate={new Date('2015-08-08')} 
+            maxDate={new Date('2015-08-09')} 
           />
         </div>
       </div>
